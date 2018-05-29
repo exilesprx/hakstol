@@ -1,0 +1,36 @@
+{
+    "name": "hakstol/amqp",
+    "description": "AMQP consumer package for inter-service communication.",
+    "type": "package",
+    "keywords": [
+        "amwp",
+        "rabbitmq",
+        "microservices"
+    ],
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Exilesprx",
+            "email": "campbell.andrew86@yahoo.com"
+        }
+    ],
+    "require": {
+        "enqueue/simple-client": "^0.8.28",
+        "enqueue/amqp-bunny": "^0.8.31",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hakstol\\": "Hakstol/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hakstol\\Providers\\HakstolServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
