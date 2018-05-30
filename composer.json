@@ -18,7 +18,9 @@
     "require": {
         "enqueue/simple-client": "^0.8.28",
         "enqueue/amqp-bunny": "^0.8.31",
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "illuminate/contracts": "^5.5",
+        "illuminate/support": "^5.5"
     },
     "autoload": {
         "psr-4": {
